@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.eliptical-top {
+  position: relative;
+  padding-top: 10px; /* Ajusta según sea necesario */
+  z-index: 10;
+}
+
+.eliptical-top::before {
+  content: "";
+  position: absolute;
+  top: -45px; /* Ajusta según sea necesario */
+  left: 0;
+  right: 0;
+  height: 60px; /* Ajusta según sea necesario */
+  background: #111;
+  border-top-left-radius: 50% 100px; /* Ajusta el radio de la elipse */
+  border-top-right-radius: 50% 100px; /* Ajusta el radio de la elipse */
+}

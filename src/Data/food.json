@@ -1,0 +1,136 @@
+{
+  "comidas": [
+    {
+      "nombre": "Milanesa con Papas Fritas",
+      "precio": 8000,
+      "categoria": "Platos Principales",
+      "descripcion": "Una clásica milanesa de carne acompañada de papas fritas crujientes."
+    },
+    {
+      "nombre": "Empanadas de Carne",
+      "precio": 1500,
+      "categoria": "Entradas",
+      "descripcion": "Empanadas tradicionales rellenas de carne y especias."
+    },
+    {
+      "nombre": "Asado",
+      "precio": 12000,
+      "categoria": "Platos Principales",
+      "descripcion": "Carne de res asada a la parrilla, un clásico de la cocina argentina."
+    },
+    {
+      "nombre": "Provoleta",
+      "precio": 4000,
+      "categoria": "Entradas",
+      "descripcion": "Queso provolone fundido a la parrilla con orégano y aceite de oliva."
+    },
+    {
+      "nombre": "Choripán",
+      "precio": 3000,
+      "categoria": "Platos Principales",
+      "descripcion": "Chorizo a la parrilla servido en pan con chimichurri."
+    },
+    {
+      "nombre": "Pizza Napolitana",
+      "precio": 7000,
+      "categoria": "Platos Principales",
+      "descripcion": "Pizza con salsa de tomate, mozzarella, rodajas de tomate y albahaca."
+    },
+    {
+      "nombre": "Locro",
+      "precio": 6000,
+      "categoria": "Platos Principales",
+      "descripcion": "Guiso tradicional con maíz, porotos, carne de cerdo y chorizo."
+    },
+    {
+      "nombre": "Pastel de Papa",
+      "precio": 6500,
+      "categoria": "Platos Principales",
+      "descripcion": "Pastel de carne cubierto con puré de papas gratinado."
+    },
+    {
+      "nombre": "Ensalada Mixta",
+      "precio": 2500,
+      "categoria": "Guarniciones",
+      "descripcion": "Ensalada fresca con lechuga, tomate y cebolla."
+    },
+    {
+      "nombre": "Pure Mixto",
+      "precio": 2500,
+      "categoria": "Guarniciones",
+      "descripcion": "Pure de papas con calabaza, queso y verdeo."
+    },
+    {
+      "nombre": "Papas Fritas",
+      "precio": 2500,
+      "categoria": "Guarniciones",
+      "descripcion": "Porcion grande de papas fritas."
+    },
+    {
+      "nombre": "Flan con Dulce de Leche",
+      "precio": 3500,
+      "categoria": "Postres",
+      "descripcion": "Flan casero acompañado de dulce de leche y crema."
+    },
+    {
+      "nombre": "Ravioles de Ricota",
+      "precio": 7000,
+      "categoria": "Platos Principales",
+      "descripcion": "Ravioles caseros rellenos de ricota, servidos con salsa de tomate."
+    },
+    {
+      "nombre": "Sándwich de Milanesa",
+      "precio": 4000,
+      "categoria": "Platos Principales",
+      "descripcion": "Milanesa de carne en pan francés con lechuga, tomate y mayonesa."
+    },
+    {
+      "nombre": "Humita en Chala",
+      "precio": 5000,
+      "categoria": "Platos Principales",
+      "descripcion": "Preparación a base de maíz envuelta en hojas de maíz y cocida al vapor."
+    },
+    {
+      "nombre": "Tarta de Verduras",
+      "precio": 4500,
+      "categoria": "Platos Principales",
+      "descripcion": "Tarta casera rellena de espinacas, acelga y queso."
+    },
+    {
+      "nombre": "Lomo a la Pimienta",
+      "precio": 9000,
+      "categoria": "Platos Principales",
+      "descripcion": "Filete de lomo cocido a la perfección con salsa de pimienta."
+    },
+    {
+      "nombre": "Matambre a la Pizza",
+      "precio": 8000,
+      "categoria": "Platos Principales",
+      "descripcion": "Matambre de cerdo o vacuno cubierto con salsa de tomate y mozzarella."
+    },
+    {
+      "nombre": "Cazuela de Mariscos",
+      "precio": 10000,
+      "categoria": "Platos Principales",
+      "descripcion": "Surtido de mariscos cocidos en una deliciosa salsa de vino blanco."
+    },
+    {
+      "nombre": "Pollo al Disco",
+      "precio": 7500,
+      "categoria": "Platos Principales",
+      "descripcion": "Pollo cocido en disco de arado con vegetales y especias."
+    },
+    {
+      "nombre": "Gnocchi de Papa",
+      "precio": 6000,
+      "categoria": "Platos Principales",
+      "descripcion": "Gnocchi caseros de papa servidos con salsa de tu elección."
+    },
+    {
+      "nombre": "Helado Artesanal",
+      "precio": 3000,
+      "categoria": "Postres",
+      "descripcion": "Helado artesanal disponible en varios sabores."
+    }
+  ]
+}
