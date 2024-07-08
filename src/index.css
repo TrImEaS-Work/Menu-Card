@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .eliptical-top {
   position: relative;
   padding-top: 10px; /* Ajusta según sea necesario */
@@ -18,4 +23,52 @@
   background: #111;
   border-top-left-radius: 50% 100px; /* Ajusta el radio de la elipse */
   border-top-right-radius: 50% 100px; /* Ajusta el radio de la elipse */
+}
+
+#menu-1 {
+  background-image: url(./assets/menu-card-2-img/img-menu-1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+#menu-2 {
+  background-image: url(./assets/menu-card-2-img/img-menu-2.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+
+#menu-3 {
+  background-image: url(./assets/menu-card-2-img/img-menu-3.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+
+#menu-4 {
+  background-image: url(./assets/menu-card-2-img/img-menu-4.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+
+#menu-5 {
+  background-image: url(./assets/menu-card-2-img/img-menu-5.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+
+#menu-6 {
+  background-image: url(./assets/menu-card-2-img/img-menu-6.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
 }
