@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: 
     {
-      fontFamily:{ 'body': ["Rubik", 'sans-serif'] }
+      fontFamily:{ 'body': ["Aleo", 'serif'] }
     },
   },
   plugins: [],
