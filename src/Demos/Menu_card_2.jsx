@@ -26,39 +26,39 @@ export default function Menu_card_2 () {
 
       <section className='flex flex-col h-full w-full gap-3 items-center'>
         <article className='flex justify-center items-center max-w-[600px] w-4/5 h-[70px] py-4 px-6 border rounded-sm bg-[#292929] border-yellow-100' id='menu-1'>
-          <span to='/menu-card-2/menu-1' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
+          <NavLink to='/menu-card-2/menus?menu=1' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
             <h2 className='max-sm:text-sm text-yellow-200 bg-slate-600 bg-opacity-50 w-full h-full flex justify-center items-center'>CARTA Y POSTRES</h2>
-          </span>
+          </NavLink>
         </article>
 
         <article className='flex justify-center items-center max-w-[600px] w-4/5 h-[70px] py-4 px-6 border rounded-sm bg-[#292929] border-yellow-100' id='menu-2'>
-          <span to='/menu-card-2/menu-2' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
+          <NavLink to='/menu-card-2/menus?menu=2' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
             <h2 className='max-sm:text-sm text-yellow-200 bg-slate-600 bg-opacity-50 w-full h-full flex justify-center items-center'>MENU DEL DIA</h2>
-          </span>
+          </NavLink>
         </article>
         
         <article className='flex justify-center items-center max-w-[600px] w-4/5 h-[70px] py-4 px-6 border rounded-sm bg-[#292929] border-yellow-100' id='menu-3'>
-          <span to='/menu-card-2/menu-3' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
+          <NavLink to='/menu-card-2/menus?menu=3' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
             <h2 className='max-sm:text-sm text-yellow-200 bg-slate-600 bg-opacity-50 w-full h-full flex justify-center items-center'>MENU DE NOCHE</h2>
-          </span>
+          </NavLink>
         </article>
 
         <article className='flex justify-center items-center max-w-[600px] w-4/5 h-[70px] py-4 px-6 border rounded-sm bg-[#292929] border-yellow-100' id='menu-4'>
-          <span to='/menu-card-2/menu-4' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
+          <NavLink to='/menu-card-2/menus?menu=4' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
             <h2 className='max-sm:text-sm text-yellow-200 bg-slate-600 bg-opacity-50 w-full h-full flex justify-center items-center'>MENU SABADO</h2>
-          </span>
+          </NavLink>
         </article>
 
         <article className='flex justify-center items-center max-w-[600px] w-4/5 h-[70px] py-4 px-6 border rounded-sm bg-[#292929] border-yellow-100' id='menu-5'>
-          <span to='/menu-card-2/menu-5' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
+          <NavLink to='/menu-card-2/menus?menu=5' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
             <h2 className='max-sm:text-sm text-yellow-200 bg-slate-600 bg-opacity-50 w-full h-full flex justify-center items-center'>MENU DE GRUPO</h2>
-          </span>
+          </NavLink>
         </article>
 
         <article className='flex justify-center items-center max-w-[600px] w-4/5 h-[70px] py-4 px-6 border rounded-sm bg-[#292929] border-yellow-100' id='menu-6'>
-          <span to='/menu-card-2/menu-6' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
+          <NavLink to='/menu-card-2/menus?menu=6' className='flex justify-center items-center border text-white font-bold border-yellow-100 w-full h-full max-w-[430px]'>
             <h2 className='max-sm:text-sm text-yellow-200 bg-slate-600 bg-opacity-50 w-full h-full flex justify-center items-center'>TAKE AWAY</h2>
-          </span>
+          </NavLink>
         </article>
       </section>
 
