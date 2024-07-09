@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: 
     {
-      fontFamily:{ 'body': ["Playwrite IT Moderna", 'cursive'] }
+      fontFamily:{ 'body': ["Rubik", 'sans-serif'] }
     },
   },
   plugins: [],
