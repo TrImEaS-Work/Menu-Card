@@ -31,11 +31,11 @@ export default function Menus() {
         {filteredItems.map((item, index) => (
           <div key={index} className={`${index === 0 ? 'border-t' : ''} flex justify-between border-b p-5 max-sm:px-2 gap-x-2 max-sm:text-sm text-[#fafafa]`}>
             <div className="flex flex-col gap-y-3">
-              <h3 className="text-start text-yellow-100">{item.nombre}</h3>
-              <p className="text-start">{item.descripcion}</p>
-              <p className="text-start pt-4 text-yellow-100">${item.precio}</p>
+              <i className="text-start text-yellow-100 font-semibold">{item.nombre}</i>
+              <i className="text-start">{item.descripcion}</i>
+              <p className="text-start pt-4 text-yellow-100 font-semibold">${item.precio}</p>
             </div>
-            <img src={item.img} alt={item.nombre} className="w-[200px] h-[200px] max-sm:w-[130px] max-sm:h-[130px] rounded-xl object-cover" />
+            <img src={item.img} alt={item.nombre} className="w-[130px] h-[130px] rounded-xl object-cover" />
           </div>
         ))}
       </div>
