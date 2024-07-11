@@ -3,11 +3,13 @@ import Menu_card_1 from './Demos/Menu_card_1.jsx'
 import Menu_card_2 from './Demos/Menu_card_2.jsx'
 import Menus from './Components/Menus.jsx'
 import Home from './Home.jsx'
+import Nav from "./Components/Nav.jsx"
 import ErrorPage from "./Components/ErrorPage.jsx"
 
 export default function App() {
   return (
     <main className="m-0 p-0 font-body bg-[#fafafa] flex flex-col items-center min-h-screen w-full h-full">
+      <Nav/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/menu-card-1" element={<Menu_card_1/>}/>
