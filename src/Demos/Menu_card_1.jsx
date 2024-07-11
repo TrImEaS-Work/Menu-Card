@@ -53,7 +53,7 @@ export default function Menu_card_1 () {
           </article>
         ))}
 
-        <footer className="bg-[#111] h-full w-full px-5 flex flex-col gap-y-3 items-center justify-center">
+        <footer className="bg-[#111] border-t h-full w-full px-5 flex flex-col gap-y-3 items-center justify-center pt-5">
           <span className="text-white text-2xl">Nuestras redes</span>
           <ul className="flex gap-x-5 text-3xl">
             <a href="#" target="_blank"><FaWhatsapp className="text-orange-400"/></a>

@@ -9,8 +9,8 @@ export default function Menu_card_2 () {
   const categories = ['Entradas', 'Platos Principales', 'Guarniciones', 'Postres'];
 
   return (
-    <section className='flex flex-col gap-5 pt-5 w-full min-h-screen items-center justify-between bg-[#292929]'>
-      <nav className="relative bg-[#292929] border-black h-full w-full px-10 gap-y-2 flex items-center justify-center flex-col">
+    <section className='flex flex-col gap-5 pt-5 w-full min-h-screen items-center justify-between bg-[#111]'>
+      <nav className="relative bg-[#111] border-black h-full w-full px-10 gap-y-2 flex items-center justify-center flex-col">
         <section className='flex justify-center items-center w-full'>
           <NavLink to='/' className='absolute top-4 left-4 text-xl font-bold text-yellow-300'><FaArrowLeft/></NavLink>
           <img 
@@ -62,7 +62,7 @@ export default function Menu_card_2 () {
         </article>
       </section>
 
-      <footer className="bg-[#222] h-full w-full p-5 flex flex-col gap-y-3 items-center justify-center">
+      <footer className="bg-[#222] border-t h-full w-full p-5 flex flex-col gap-y-3 items-center justify-center">
         <i className="text-white text-2xl font-semibold">Nuestras redes</i>
         <ul className="flex gap-x-5 text-2xl">
           <a href="/menu-card-2/#" target="_blank"><FaWhatsapp className="text-yellow-300"/></a>

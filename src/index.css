@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+.isActive {
+  border-bottom: solid white 2px;
+  filter: drop-shadow(1px 1px 12px white )
+}
+
+.white-shadow {
+  filter: drop-shadow(1px 1px 12px white )
+}
+
+.white-shadow {
+  filter: drop-shadow(1px 1px 12px white )
+}
+
+.white-shadow-hover:hover {
+  filter: drop-shadow(1px 1px 12px white )
+}
+
+.white-shadow-focus:focus {
+  filter: drop-shadow(1px 1px 6px white )
+}
+
+.new-shadow-cyan {
+  box-shadow: 0px 0px 6px cyan;
+}
+
+.new-shadow-cyan-hover:hover {
+  box-shadow: 0px 0px 14px cyan;
+}
+
 body {
   padding: 0;
   margin: 0;
