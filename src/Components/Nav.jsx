@@ -5,7 +5,7 @@ import { useState } from "react"
 
 export default function Nav() {
   const path = useLocation().pathname
-  const [mobileMenu, setMobileMenu] = useState(false)
+  const [mobileMenu, setMobileMenu] = useState(true)
 
   return (
     <section className="flex justify-between items-center px-10 w-full h-20 bg-[#292929] border-b">
