@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 export default function Contact() {
   return (
-    <section className='w-full min-h-screen px-10 text-gray-50 bg-[#111] flex justify-center pb-[150px] items-center p-4'>
+    <section className='w-full min-h-screen px-10 text-gray-50 bg-[#111] flex justify-center pt-[100px] p-4'>
       <form 
         method="POST" 
         action="https://getform.io/f/3ca3d9db-d6ea-445b-863d-1d78e596c2c2"
