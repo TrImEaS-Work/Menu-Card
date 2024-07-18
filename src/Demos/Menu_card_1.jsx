@@ -14,7 +14,7 @@ export default function Menu_card_1 () {
         <NavLink to='/' className='absolute top-4 left-4 text-xl font-bold'><FaArrowLeft/></NavLink>
         <img 
           src={logo} 
-          className="w-[200px] z-10 h-[200px] border-4 border-orange-300 rounded-full object-contain"
+          className="z-10 max-sm:h-[200px] h-[300px] max-w-[700px] w-3/4 border-2 bg-[#e5e0e0] aspect-video border-orange-300 rounded-3xl object-contain"
         />
       </header>
 

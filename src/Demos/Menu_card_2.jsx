@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import logo from '../assets/restaurant-logo.jpg'
+import logo from '../assets/restaurant-logo-2.jpg'
 import wave from '../assets/wave.svg'
 import menu from '../Data/food.json'
 import { FaWhatsapp, FaInstagram, FaFacebook, FaTwitter, FaArrowLeft, FaBars } from 'react-icons/fa'
@@ -11,11 +11,11 @@ export default function Menu_card_2 () {
   return (
     <section className='flex flex-col gap-5 pt-5 w-full min-h-screen items-center justify-between bg-[#111]'>
       <nav className="relative bg-[#111] border-black h-full w-full px-10 gap-y-2 flex items-center justify-center flex-col">
-        <section className='flex justify-center items-center w-full'>
+        <section className='flex max-w-[500px] min-w-[230px] justify-center items-center w-3/4'>
           <NavLink to='/' className='absolute top-4 left-4 text-xl font-bold text-yellow-300'><FaArrowLeft/></NavLink>
           <img 
             src={logo} 
-            className="w-[160px] border border-yellow-100 z-10 h-[70px] p-4 bg-gray-300 rounded-ee-2xl rounded-tl-2xl rounded-md object-cover"
+            className="w-full aspect-video h-[200px] border z-10 bg-[#211b12] rounded-ee-3xl rounded-tl-3xl object-contain"
           />
         </section>
         
