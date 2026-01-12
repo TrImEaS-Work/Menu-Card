@@ -98,7 +98,7 @@ export default function App() {
 
       <section>
         <h2><i class="fas fa-tags"></i> Inversión del Proyecto</h2>
-        <p>Costo del programa (Pago único):</p>
+        <p>Instalacion + preparativos del programa (Pago único):</p>
         <table class="pricing-table">
           <thead>
             <tr>
@@ -110,24 +110,24 @@ export default function App() {
           <tbody>
             <tr>
               <td><strong>Contado / Transferencia</strong></td>
-              <td class="price-tag">$400,000.00</td>
+              <td class="price-tag">$200,000.00</td>
               <td><span class="badge">Mejor Precio</span></td>
             </tr>
             <tr>
               <td><strong>Financiado (Plan A)</strong></td>
-              <td class="price-tag">$480,000.00</td>
-              <td>1 Adelanto + 2 Cuotas de $160,000.00</td>
+              <td class="price-tag">$250,000.00</td>
+              <td>1 Adelanto + 1 Cuota ($125,000.00 c/u)</td>
             </tr>
             <tr>
               <td><strong>Financiado (Plan B)</strong></td>
-              <td class="price-tag">$550,000.00</td>
-              <td>1 Adelanto + 5 Cuotas de $91,666.00</td>
+              <td class="price-tag">$315,000.00</td>
+              <td>1 Adelanto + 2 Cuotas ($105,000.00 c/u)</td>
             </tr>
           </tbody>
         </table>
 
         <div class="server-cost">
-          Mantenimiento y Alojamiento del Servidor (Mensual): $30,000.00
+          Mantenimiento + Alojamiento del Servidor + Dominio (Mensual): $50,000.00
         </div>
       </section>
 
