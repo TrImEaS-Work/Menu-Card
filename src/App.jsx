@@ -97,7 +97,7 @@ export default function App() {
       </section>
 
       <section>
-        <h2><i class="fas fa-tags"></i> Inversión del Proyecto</h2>
+        <h2><i class="fas fa-tags"></i> Costo del servicio</h2>
         <p>Instalacion + preparativos del programa (Pago único):</p>
         <table class="pricing-table">
           <thead>
@@ -127,7 +127,7 @@ export default function App() {
         </table>
 
         <div class="server-cost">
-          Mantenimiento + Alojamiento del Servidor + Dominio (Mensual): $50,000.00
+          Mantenimiento + Alojamiento del Servidor + Dominio (Mensual): $50,000.00 (Precio fijo por 9 meses)
         </div>
       </section>
 
