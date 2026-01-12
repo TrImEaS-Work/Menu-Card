@@ -1,144 +1,147 @@
 import { Routes, Route } from "react-router-dom"
-import Menu_card_1 from './Demos/Menu_card_1.jsx'
-import Menu_card_2 from './Demos/Menu_card_2.jsx'
-import Menus from './Components/Menus.jsx'
-import Home from './Home.jsx'
-import Nav from "./Components/Nav.jsx"
-import ErrorPage from "./Components/ErrorPage.jsx"
-import Prices from "./Components/Prices.jsx"
-import Contact from "./Components/Contact.jsx"
+// Importa tus componentes aquí...
 
 export default function App() {
   return (
-    <main className="m-0 p-0 font-body bg-[#fafafa] flex flex-col items-center min-h-screen w-full h-full">
+    <main className="m-0 p-0 font-sans bg-[#fafafa] flex flex-col items-center min-h-screen w-full">
       {/* <Nav/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/precios" element={<Prices/>}/>
-        <Route path="/menu-card-1" element={<Menu_card_1/>}/>
-        <Route path="/menu-card-2" element={<Menu_card_2/>}/>
-        <Route path="/menu-card-2/menus" element={<Menus/>}/>
-        <Route path="/contacto" element={<Contact/>}/>
-        <Route path="/*" element={<ErrorPage/>}/>
-      </Routes> */}
+        ...
+      </Routes> 
+      */}
 
-        <div class="container">
-      <header>
-        <h1>Propuesta de Desarrollo Web</h1>
-        <p><strong>Sistema de Pedidos vía WhatsApp - Básico</strong></p>
-      </header>
+      <div className="w-full max-w-4xl bg-white my-4 md:my-10 p-6 md:p-12 rounded-xl shadow-lg border border-gray-100">
+        
+        {/* Header */}
+        <header className="text-center border-b-2 border-green-500 pb-6 mb-8">
+          <h1 className="text-2xl md:text-4xl font-bold text-slate-800">Propuesta de Desarrollo Web</h1>
+          <p className="text-lg text-green-600 font-semibold mt-2">Sistema de Pedidos vía WhatsApp - Básico</p>
+        </header>
 
-      <section>
-        <h2><i class="fas fa-laptop-code"></i> Características del Sitio</h2>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <i class="fas fa-route"></i>
-            <div>
-              <strong>Multi-rutas:</strong> Inicio, Menús, Acerca de nosotros,
-              Contacto y más.
+        {/* Características */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-slate-700 border-l-4 border-green-500 pl-4 mb-6">
+            <i className="fas fa-laptop-code mr-2"></i> Características del Sitio
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="flex items-start bg-gray-50 p-4 rounded-lg">
+              <i className="fas fa-route text-green-500 mt-1 mr-4"></i>
+              <p className="text-sm md:text-base text-gray-700"><strong>Multi-rutas:</strong> Inicio, Menús, Acerca de nosotros, Contacto y más.</p>
+            </div>
+            <div className="flex items-start bg-gray-50 p-4 rounded-lg">
+              <i className="fas fa-paint-brush text-green-500 mt-1 mr-4"></i>
+              <p className="text-sm md:text-base text-gray-700"><strong>Diseño Personalizado:</strong> Adaptado a la identidad visual de tu marca.</p>
+            </div>
+            <div className="flex items-start bg-gray-50 p-4 rounded-lg">
+              <i className="fas fa-user-check text-green-500 mt-1 mr-4"></i>
+              <p className="text-sm md:text-base text-gray-700"><strong>Memoria de Usuario:</strong> Datos guardados para agilizar pedidos futuros.</p>
+            </div>
+            <div className="flex items-start bg-gray-50 p-4 rounded-lg">
+              <i className="fas fa-map-marked-alt text-green-500 mt-1 mr-4"></i>
+              <p className="text-sm md:text-base text-gray-700"><strong>Sección Nosotros:</strong> Info local y Google Maps interactivo.</p>
+            </div>
+            <div className="flex items-start bg-gray-50 p-4 rounded-lg">
+              <i className="fas fa-print text-green-500 mt-1 mr-4"></i>
+              <p className="text-sm md:text-base text-gray-700"><strong>Integración Ticketera:</strong> Impresión directa de pedidos.</p>
+            </div>
+            <div className="flex items-start bg-gray-50 p-4 rounded-lg">
+              <i className="fas fa-shield-alt text-green-500 mt-1 mr-4"></i>
+              <p className="text-sm md:text-base text-gray-700"><strong>Seguridad:</strong> Backup semanal y soporte técnico incluido.</p>
             </div>
           </div>
-          <div class="feature-item">
-            <i class="fas fa-paint-brush"></i>
-            <div>
-              <strong>Diseño Personalizado:</strong> Adaptado a la identidad
-              visual de tu marca.
-            </div>
-          </div>
-          <div class="feature-item">
-            <i class="fas fa-user-check"></i>
-            <div>
-              <strong>Memoria de Usuario:</strong> Los datos del cliente se
-              guardan para agilizar futuros pedidos.
-            </div>
-          </div>
-          <div class="feature-item">
-            <i class="fas fa-map-marked-alt"></i>
-            <div>
-              <strong>Sección Nosotros:</strong> Información local y mapa
-              interactivo de Google Maps.
-            </div>
-          </div>
-          <div class="feature-item">
-            <i class="fas fa-print"></i>
-            <div>
-              <strong>Integración con Ticketera:</strong> Programa de
-              comunicación para impresión directa en ticketera.
-            </div>
-          </div>
-          <div class="feature-item">
-            <i class="fas fa-shield-alt"></i>
-            <div>
-              <strong>Seguridad:</strong> Backup de datos semanal y soporte
-              técnico incluido.
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="admin-panel">
-        <h2><i class="fas fa-user-cog"></i> Panel Administrativo</h2>
-        <p>Control total sobre tu negocio desde un solo lugar:</p>
-        <ul>
-          <li>Gestión de <strong>Menús y Banner</strong>.</li>
-          <li>
-            Edición de <strong>Información General</strong> (Nosotros y
-            Contacto).
-          </li>
-          <li>
-            <strong>Métricas:</strong>
-            <ul>
-              <li>Ventas por fecha (diaria, semanal, mensual).</li>
-              <li>Top 10 Menús más pedidos.</li>
-              <li>Top 10 Menús más buscados/clicheados.</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
+        {/* Panel Administrativo */}
+        <section className="mb-10 bg-green-50 p-6 rounded-xl border border-green-100">
+          <h2 className="text-xl font-bold text-slate-700 mb-4">
+            <i className="fas fa-user-cog mr-2"></i> Panel Administrativo
+          </h2>
+          <p className="text-gray-700 mb-4">Control total sobre tu negocio:</p>
+          <ul className="space-y-2 text-gray-700 ml-2">
+            <li className="flex items-center"><span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span> Gestión de Menús y Banner.</li>
+            <li className="flex items-center"><span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span> Edición de Información General.</li>
+            <li className="mt-4">
+              <strong className="text-green-700 font-bold block mb-1">Métricas de Negocio:</strong>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm pl-4">
+                <span>• Ventas por fecha (Diaria/Semanal/Mensual)</span>
+                <span>• Top 10 Menús más pedidos</span>
+                <span>• Top 10 Menús más buscados</span>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-      <section>
-        <h2><i class="fas fa-tags"></i> Inversión del Proyecto</h2>
-        <p>Costo del programa (Pago único):</p>
-        <table class="pricing-table">
-          <thead>
-            <tr>
-              <th>Modalidad</th>
-              <th>Inversión Total</th>
-              <th>Detalle</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Contado / Transferencia</strong></td>
-              <td class="price-tag">$400,000.00</td>
-              <td><span class="badge">Mejor Precio</span></td>
-            </tr>
-            <tr>
-              <td><strong>Financiado (Plan A)</strong></td>
-              <td class="price-tag">$480,000.00</td>
-              <td>1 Adelanto + 2 Cuotas de $160,000.00</td>
-            </tr>
-            <tr>
-              <td><strong>Financiado (Plan B)</strong></td>
-              <td class="price-tag">$550,000.00</td>
-              <td>1 Adelanto + 5 Cuotas de $91,666.00</td>
-            </tr>
-          </tbody>
-        </table>
+        {/* Precios - Responsive Table/Cards */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-slate-700 border-l-4 border-green-500 pl-4 mb-6">
+            <i className="fas fa-tags mr-2"></i> Inversión del Proyecto
+          </h2>
+          <p className="text-gray-600 mb-4 italic text-sm">Costo del programa (Pago único):</p>
+          
+          {/* Vista para Tablet/Desktop */}
+          <div className="hidden md:block overflow-hidden rounded-lg border border-gray-200">
+            <table className="w-full text-left border-collapse">
+              <thead className="bg-slate-800 text-white">
+                <tr>
+                  <th className="p-4">Modalidad</th>
+                  <th className="p-4">Inversión Total</th>
+                  <th className="p-4">Detalle</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700">
+                <tr className="border-b">
+                  <td className="p-4 font-semibold">Contado / Transferencia</td>
+                  <td className="p-4 text-green-600 font-bold text-lg">$400,000.00</td>
+                  <td className="p-4"><span className="bg-green-500 text-white text-xs px-2 py-1 rounded-full uppercase">Mejor Precio</span></td>
+                </tr>
+                <tr className="border-b">
+                  <td className="p-4 font-semibold">Financiado (Plan A)</td>
+                  <td className="p-4 text-green-600 font-bold text-lg">$480,000.00</td>
+                  <td className="p-4 text-sm">1 Adelanto + 2 Cuotas de $160,000</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-semibold">Financiado (Plan B)</td>
+                  <td className="p-4 text-green-600 font-bold text-lg">$550,000.00</td>
+                  <td className="p-4 text-sm">1 Adelanto + 5 Cuotas de $91,666</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-        <div class="server-cost">
-          Mantenimiento y Alojamiento del Servidor (Mensual): $30,000.00
-        </div>
-      </section>
+          {/* Vista para Celular */}
+          <div className="md:hidden space-y-4 text-center">
+            <div className="p-4 border border-green-200 rounded-lg bg-green-50">
+              <div className="text-xs uppercase text-green-600 font-bold">Contado</div>
+              <div className="text-2xl font-bold text-slate-800">$400,000.00</div>
+              <div className="text-sm text-gray-500">Transferencia o Efectivo</div>
+            </div>
+            <div className="p-4 border border-gray-200 rounded-lg">
+              <div className="text-xs uppercase text-gray-400 font-bold">Plan A</div>
+              <div className="text-2xl font-bold text-slate-800">$480,000.00</div>
+              <div className="text-sm text-gray-500 italic">1 Adelanto + 2 cuotas de $160,000</div>
+            </div>
+            <div className="p-4 border border-gray-200 rounded-lg">
+              <div className="text-xs uppercase text-gray-400 font-bold">Plan B</div>
+              <div className="text-2xl font-bold text-slate-800">$550,000.00</div>
+              <div className="text-sm text-gray-500 italic">1 Adelanto + 5 cuotas de $91,666</div>
+            </div>
+          </div>
 
-      <footer>
-        <p>Propuesta válida por los próximos 30 días.</p>
-        <p>
-          <i class="fab fa-whatsapp"></i> Soporte técnico básico vía WhatsApp
-          incluido.
-        </p>
-      </footer>
-    </div>
+          <div className="mt-6 bg-yellow-50 border border-yellow-200 p-4 rounded-lg text-center text-yellow-800 font-semibold">
+            Mantenimiento y Alojamiento del Servidor (Mensual): $30,000.00
+          </div>
+        </section>
+
+        {/* Footer */}
+        <footer className="text-center text-gray-400 text-sm border-t pt-6">
+          <p>Propuesta válida por los próximos 30 días.</p>
+          <p className="flex justify-center items-center gap-2 mt-2 text-green-600 font-medium">
+            <i className="fab fa-whatsapp"></i> Soporte técnico básico incluido
+          </p>
+        </footer>
+      </div>
     </main>
   )
 }
